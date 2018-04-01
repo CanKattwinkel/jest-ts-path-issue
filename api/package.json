@@ -50,7 +50,7 @@
     },
     "coverageDirectory": "../coverage",
     "moduleNameMapper": {
-      "@core": "<rootDir>/../core/"
+      "@core/(.*)": "<rootDir>/../../core/$1"
     }
   }
 }

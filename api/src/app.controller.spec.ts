@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { INestApplication } from '@nestjs/common';
 import { AppController } from './app.controller';
-import {SomeModel} from '@core/some-shared-model';
+import {SomeModel} from '@core/some-model';
 
 
 console.log(SomeModel);
